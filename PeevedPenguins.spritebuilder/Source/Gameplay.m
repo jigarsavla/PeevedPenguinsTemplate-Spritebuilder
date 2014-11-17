@@ -14,6 +14,7 @@
     CCNode *_levelNode;
     CCNode *_catapultArm;
     CCNode *_contentNode;
+    CCNode *_pullbackNode;
 }
 
 // is called when CCB file has completed loading

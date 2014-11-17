@@ -246,8 +246,8 @@
 					<string>EnabledFloat</string>
 					<key>value</key>
 					<array>
-						<real>58</real>
-						<false/>
+						<real>55.822708129882812</real>
+						<true/>
 					</array>
 				</dict>
 				<dict>
@@ -256,7 +256,7 @@
 					<key>type</key>
 					<string>Float</string>
 					<key>value</key>
-					<real>1</real>
+					<real>60</real>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -264,7 +264,7 @@
 					<key>type</key>
 					<string>Float</string>
 					<key>value</key>
-					<real>4</real>
+					<real>500</real>
 				</dict>
 			</array>
 			<key>selected</key>
@@ -1298,8 +1298,8 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>233</real>
-											<real>285</real>
+											<real>270.52926635742188</real>
+											<real>300.80178833007812</real>
 											<integer>0</integer>
 											<integer>0</integer>
 											<integer>0</integer>
