@@ -15,6 +15,8 @@
     CCNode *_catapultArm;
     CCNode *_contentNode;
     CCNode *_pullbackNode;
+    CCNode *_mouseJointNode;
+    CCPhysicsJoint *_mosueJoint;
 }
 
 // is called when CCB file has completed loading
