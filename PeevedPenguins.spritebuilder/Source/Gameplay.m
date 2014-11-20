@@ -79,6 +79,11 @@
     [self releaseCatapult];
 }
 
+- (void) touchCancelled:(CCTouch *)touch withEvent:(CCTouchEvent *)event
+{
+    [self releaseCatapult];
+}
+
 - (void)launchPenguin {
     // loads the Penguin.ccb we have set up in Spritebuilder
     CCNode* penguin = [CCBReader load:@"Penguin"];
