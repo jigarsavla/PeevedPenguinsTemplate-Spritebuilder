@@ -81,13 +81,17 @@
         // releases the joint and lets the catapult snap back
         [_mouseJoint invalidate];
         _mouseJoint = nil;
+        
+        //releases the joint and lets the penguin fly
+        [_penguinCatapultJoint invalidate];
+        _penguinCatapultJoint = nil;
+        
     }
 }
 
 - (void) touchEnded:(CCTouch *)touch withEvent:(CCTouchEvent *)event
 {
     [self releaseCatapult];
-    [self launchPenguin];
 }
 
 - (void) touchCancelled:(CCTouch *)touch withEvent:(CCTouchEvent *)event
