@@ -86,6 +86,9 @@
         [_penguinCatapultJoint invalidate];
         _penguinCatapultJoint = nil;
         
+        // after snapping, rotation is fine
+        _currentPenguin.physicsBody.allowsRotation = TRUE;
+        
     }
 }
 
