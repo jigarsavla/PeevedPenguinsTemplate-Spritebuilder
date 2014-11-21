@@ -71,6 +71,7 @@
 - (void) touchEnded:(CCTouch *)touch withEvent:(CCTouchEvent *)event
 {
     [self releaseCatapult];
+    [self launchPenguin];
 }
 
 - (void) touchCancelled:(CCTouch *)touch withEvent:(CCTouchEvent *)event
