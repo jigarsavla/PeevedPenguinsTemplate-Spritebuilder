@@ -247,7 +247,7 @@
 					<key>value</key>
 					<array>
 						<real>55.822708129882812</real>
-						<true/>
+						<false/>
 					</array>
 				</dict>
 				<dict>
@@ -267,6 +267,8 @@
 					<real>500</real>
 				</dict>
 			</array>
+			<key>selected</key>
+			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
