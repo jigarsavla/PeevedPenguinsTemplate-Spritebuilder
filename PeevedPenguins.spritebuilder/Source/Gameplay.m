@@ -55,7 +55,7 @@
         // create a penguin from the ccb-file
         _currentPenguin = [CCBReader load:@"Penguin"];
         // initially position it on the scoop. 18,145 is the position in the node space of _catapultArm
-        CGPoint penguinPosition = [_catapultArm convertToWorldSpace:ccp(23,145)];
+        CGPoint penguinPosition = [_catapultArm convertToWorldSpace:ccp(43,145)];
         // transform the world position to the node space to which the penguin will be added (_physicsNode)
         _currentPenguin.position = [_physicsNode convertToNodeSpace:penguinPosition];
         // add it to the physics world
